@@ -37,5 +37,15 @@
 // age=age+"";
 // console.log(age, typeof (age)); //"22" is a string
 
-let myString= +"32";
-console.log(typeof myString);
+// let myString= +"32";
+// console.log(typeof myString);
+
+let string1="32";
+let string2="10";
+let newString=+string1+ +string2;
+console.log(newString, typeof newString);
+
+let string3="Mithila";
+let string4="I Love You So Much";
+let fullString= string3 + " " +string4;
+console.log(fullString);

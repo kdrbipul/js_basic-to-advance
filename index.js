@@ -26,6 +26,16 @@
 // console.log(newString.length);
 // console.log(firstName.toUpperCase());
 
-let firstName="Abdul Kader";
-let newString=firstName.slice(1,5);
-console.log(newString);
+// let firstName="Abdul Kader";
+// let newString=firstName.slice(1,5);
+// console.log(newString);
+
+// let age=22;
+// // let firstName="Abdul Kader";
+// // console.log(typeof age, typeof firstName);
+
+// age=age+"";
+// console.log(age, typeof (age)); //"22" is a string
+
+let myString= +"32";
+console.log(typeof myString);

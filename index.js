@@ -87,8 +87,26 @@
 // let sameMyNumber=12n;
 // console.log(number + sameMyNumber);
 
-let num1 = 13;
-let num2 = 15;
-let num3 = num1>num2;
-console.log(num1>num2);
-    
+// let num1 = 13;
+// let num2 = 15;
+// let num3 = num1<num2;
+// console.log(num1<num2);
+
+
+// let a="20";
+// let b=20;
+// console.log(a==b);
+
+
+// let x ="24";
+// let y= 24;
+// console.log(x===y);
+
+
+let a=5;
+let b="5";
+console.log(a != b);
+
+let x = "9";
+let y = 9;
+console.log(x !== y);

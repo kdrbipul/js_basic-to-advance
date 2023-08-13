@@ -103,10 +103,48 @@
 // console.log(x===y);
 
 
-let a=5;
-let b="5";
-console.log(a != b);
+// let a=5;
+// let b="5";
+// console.log(a != b);
 
-let x = "9";
-let y = 9;
-console.log(x !== y);
+// let x = "9";
+// let y = 9;
+// console.log(x !== y);
+
+// let age = 19;
+// if (age > 18){
+//     console.log("user can play ddlc");
+// }else{
+//     console.log("user can play mario");
+// }
+
+
+// let x = 4;
+// if (x%2===0){
+//     console.log("even");
+// }else{
+//     console.log("odd");
+// }
+
+let firstName="Abdul Kader";
+let age =23;
+
+// if(firstName[0]=== "A"){
+//     console.log("your name start with A");
+// }else{
+//     console.log("your name not start with A");
+// }
+
+// if(age>18){
+//     console.log("you are above in 18");
+// }else{
+//     console.log("you are not above in 18");
+// }
+
+// akhon ai duita rules ak shathe babohar korbo
+
+if(firstName[0] === "A" && age > 18){
+    console.log("Name start with A and above 18");
+}else{
+    console.log("Name not start with A and not above 18");
+}

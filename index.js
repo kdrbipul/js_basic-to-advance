@@ -126,8 +126,7 @@
 //     console.log("odd");
 // }
 
-let firstName="Abdul Kader";
-let age =23;
+
 
 // if(firstName[0]=== "A"){
 //     console.log("your name start with A");
@@ -142,9 +141,19 @@ let age =23;
 // }
 
 // akhon ai duita rules ak shathe babohar korbo
+let firstName="Abdul Kader";
+let age =15;
 
-if(firstName[0] === "A" && age > 18){
+// if(firstName[0] === "A" && age > 18){
+//     console.log("Name start with A and above 18");
+// }else{
+//     console.log("Name not start with A and not above 18");
+// }
+
+
+if(firstName[0] === "A" || age > 18){
     console.log("Name start with A and above 18");
 }else{
     console.log("Name not start with A and not above 18");
 }
+
